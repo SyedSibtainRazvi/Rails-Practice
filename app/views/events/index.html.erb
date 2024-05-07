@@ -1,8 +1,8 @@
+<ul>
 
-Randon number is: <%= @age %>
-<ul> 
-<li>Shawshank Redeemption</li>
-<li>Interstellar</li>
-<li>Dark Knight</li>
-<li>Godfather</li>
+<%@events.each do |event| %>
+  <li>
+    <%= event%>
+  </li>
+<% end %>
 </ul>

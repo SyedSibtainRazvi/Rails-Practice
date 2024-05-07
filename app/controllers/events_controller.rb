@@ -5,6 +5,6 @@ class EventsController < ApplicationController
 
 
     def index
-        @age = rand(80)
+        @events = ["The Shawshank Redemption", "The Godfather", "The Dark Knight"]
     end
 end 
