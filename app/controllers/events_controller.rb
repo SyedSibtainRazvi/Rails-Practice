@@ -5,6 +5,6 @@ class EventsController < ApplicationController
 
 
     def index
-        
+        @age = rand(80)
     end
 end 
