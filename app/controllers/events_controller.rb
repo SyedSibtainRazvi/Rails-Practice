@@ -5,6 +5,8 @@ class EventsController < ApplicationController
 
 
     def index
-        @events = ["The Shawshank Redemption", "The Godfather", "The Dark Knight"]
+        # @events = ["The Shawshank Redemption", "The Godfather", "The Dark Knight"]
+        # These are the events that will be displayed on the events page and are fetched from the database.
+        @events = Event.all
     end
 end 
